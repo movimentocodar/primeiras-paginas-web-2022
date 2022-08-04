@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Macondo&family=Mouse+Memoirs&family=Sacramento&display=swap');
+body{
+    background-color: #ffe8ef;
+    font-family: sans-serif;
+}
+
+.cabecalho, .navbar{
+    width: 100%;
+
+}
+
+.cabecalho{
+    background-color: #4b3c5d;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;   
+    z-index: 1;
+}
+
+.conteudo-header{
+    margin: 0 auto;
+}
+
+.imagem-header, .titulo-header{
+    vertical-align: middle;
+}
+
+.imagem-header{
+    width: 90px;
+    margin: 20px 30px 30px 50px 40px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.titulo-header{
+    display: inline;
+    margin-left:0px;
+    vertical-align: center;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.navbar{
+    background-color: white;
+    top: 50px;
+    margin-top: 0px;
+    height: 60px;
+}
+
+.item-navbar{
+    vertical-align: text-top;
+    margin: 0;
+    margin-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+}
+
+.botao-navbar{
+    border: none;
+    background-color: #ffffff;
+    margin-left: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Macondo', cursive;
+}
+
+.item-navbar:hover{
+    border-bottom:#FFFFFF
+}
+
+ul{
+    list-style: none;    
+}
+
+ul li{
+    margin: 20px 25px 20px 25px;
+    float: left;
+    font-size: 20px;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+
+.conteudo{
+    width: 80%;
+    margin: 160px auto;
+    display: grid;
+    place-items:  center;
+    grid-template-columns: 3fr 3fr; 
+    grid-gap: 20px;
+}
+
+.pais{
+    width: fit-content;
+    background-color: white;
+    border: 0 solid transparent;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 10px #504375;
+}
+
+.pais:hover{
+    transition: 0.2s;
+    transform: scale(0.98);
+}
+
+
+.imagem-pais{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    width:320px;
+    padding-bottom: 10px;
+}
+
+.titulo-pais, .categoria-pais, .mundo-vazio{
+    margin: 0 0 0 10px;
+
+}
+
+.titulo-pais{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.categoria-pais{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mundo-vazio:hover{
+    cursor: pointer;
+}

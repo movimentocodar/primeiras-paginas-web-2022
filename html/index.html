@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>DESCOBRINDO O MUNDO</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+
+        <div class="conteudo-header">
+        <img class="imagem-header" src="/img/banner.png">
+        <h1 class="titulo-header">DESCOBRINDO O MUNDO</h1>
+       
+        <div class="navbar">
+              <ul>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('todos')">TODOS</button></li>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('america')">AMERICA</button></li>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('europa')">EUROPA</button></li>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('asia')">ASIA</button></li>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('africa')">AFRICA</button></li>
+                <li class="item-navbar"><button class="botao-navbar" onclick="filtrarPais('oceania')">OCEANIA</button></li>
+
+            </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="conteudo">
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/africadosul.jpg">
+        <p class="titulo-pais">Africa do Sul</p>
+        <p class="categoria-pais">Africa</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+      
+      <div class="pais">
+        <img class="imagem-pais" src="/img/australia.jpg">
+        <p class="titulo-pais">Australia</p>
+        <p class="categoria-pais">Oceania</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/brasil.jpg">
+        <p class="titulo-pais">Brasil</p>
+        <p class="categoria-pais">America</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/eua.jpg">
+        <p class="titulo-pais">Estados Unidos</p>
+        <p class="categoria-pais">America</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/londres.jpg">
+        <p class="titulo-pais">Inglaterra</p>
+        <p class="categoria-pais">Europa</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/japao.jpg">
+        <p class="titulo-pais">Japão</p>
+        <p class="categoria-pais">Asia</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/novazelandia.jpg">
+        <p class="titulo-pais">Nova Zelandia</p>
+        <p class="categoria-pais">Oceania</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/marrocos.jpg">
+        <p class="titulo-pais">Marrocos</p>
+        <p class="categoria-pais">Africa</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+      
+      <div class="pais">
+        <img class="imagem-pais" src="/img/holanda.jpg">
+        <p class="titulo-pais">Holanda</p>
+        <p class="categoria-pais">Europa</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+
+      <div class="pais">
+        <img class="imagem-pais" src="/img/tailandia.png">
+        <p class="titulo-pais">Tailandia</p>
+        <p class="categoria-pais">Asia</p>
+        <img id="colorir" class="mundo-vazio" src="https://raw.githubusercontent.com/jessicapriscilla/primeiras-paginas-web-2022-main/master/img/likebutton.png" alt="" onclick="colorirMundo(this)">
+      </div>
+      </div>
+
+    <script src="/script/main.js"></script>
+  </body>
+</html>
